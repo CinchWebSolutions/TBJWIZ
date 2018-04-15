@@ -1,0 +1,88 @@
+#wiz {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#cardimg {
+
+}
+
+#pcards {
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 auto 0;
+}
+span {
+  display: inline-block;
+  line-height: 3px;
+  vertical-align: center;
+  margin: 0 10px;
+  text-align: center;
+}
+input {
+  border: 2px solid #000000;
+  padding: 10px auto 10px auto;
+  margin: 20px auto;
+  width: 200px;
+  height: 15px;
+  background-color: #FFFFFF;
+}
+output {
+  display: table;
+  background-color: #FAD315;
+  width:200px;
+  margin:5px auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  outline-width:1px;
+  outline-style:outset;
+}
+#total {
+  border: 3px solid #068949;
+  padding: 10px 5px;
+  margin: 0px auto;
+  color: #068949;
+  width: 80px;
+  height: 25px;
+}
+#strategy {
+  border: 3px solid #068949;
+  padding: 10px 5px;
+  margin: 0px auto;
+  color: #068949;
+  width: 300px;
+  height: 25px;
+}
+#act {
+  border: 5px solid #512C89;
+  padding: 12px 10px;
+  margin: 0px auto;
+  color: #512C89;
+  width: 180px;
+  height: 30px;
+  font-size: 26px;
+}
+h2 {
+  margin: 0 auto;
+  padding: 10px 0px 5px 0px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+h3 {
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #068949;
+
+}
+
+/*button {
+  border: 3px solid black;
+  padding: 5px;
+  margin: 20px 0 20px 0;
+  font-weight: bold;
+  background-color: #F6F6F6;
+}*/

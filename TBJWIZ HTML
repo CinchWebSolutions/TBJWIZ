@@ -1,0 +1,64 @@
+<div id="wiz">
+<h1>The BlackJack Wiz</h1>
+
+<h1><h2><h3>Player Card 1</h3></h2></h1>
+<div id="pcard1" onmousedown="cardval()">
+      <img id="1c2" src="https://i.imgur.com/WZjbR03.png" alt="2" style="width:90px;height:126px;" title="2">
+      <img id="1c3" src="https://i.imgur.com/iTkC6zB.png" alt="3" style="width:90px;height:126px;" title="3">
+      <img id="1c4" src="https://i.imgur.com/72gkB2q.png" alt="4" style="width:90px;height:126px;" title="4">
+      <img id="1c5" src="https://i.imgur.com/desAIzL.png" alt="5" style="width:90px;height:126px;" title="5">
+      <img id="1c6" src="https://i.imgur.com/4bHeb3L.png" alt="6" style="width:90px;height:126px;" title="6">
+      <img id="1c7" src="https://i.imgur.com/gWXSVSh.png" alt="7" style="width:90px;height:126px;" title="7">
+      <img id="1c8" src="https://i.imgur.com/VIdlvhA.png" alt="8" style="width:90px;height:126px;" title="8">
+      <img id="1c9" src="https://i.imgur.com/wzXgI2a.png" alt="9" style="width:90px;height:126px;" title="9">
+      <img id="1c10" src="https://i.imgur.com/2xMQear.png" alt="10" style="width:90px;height:126px;" title="10">
+      <img id="1cj" src="https://i.imgur.com/TwWiJuX.png" alt="J" style="width:90px;height:126px;" title="10">
+      <img id="1cq" src="https://i.imgur.com/h8jeqym.png" alt="Q" style="width:90px;height:126px;" title="10">
+      <img id="1ck" src="https://i.imgur.com/jx5ic6B.png" alt="K" style="width:90px;height:126px;" title="10">
+      <img id="1ca" src="https://i.imgur.com/ZJsWdI5.png" alt="A" style="width:90px;height:126px;" title="11">
+</div><br />
+
+<h1><h2><h3>Player Card 2</h3></h2></h1>
+<div id="pcard2" onmousedown="cardval2()">
+      <img id="2c2" src="https://i.imgur.com/WZjbR03.png" alt="2" style="width:90px;height:126px;" title="2">
+      <img id="2c3" src="https://i.imgur.com/iTkC6zB.png" alt="3" style="width:90px;height:126px;" title="3">
+      <img id="2c4" src="https://i.imgur.com/72gkB2q.png" alt="4" style="width:90px;height:126px;" title="4">
+      <img id="2c5" src="https://i.imgur.com/desAIzL.png" alt="5" style="width:90px;height:126px;" title="5">
+      <img id="2c6" src="https://i.imgur.com/4bHeb3L.png" alt="6" style="width:90px;height:126px;" title="6">
+      <img id="2c7" src="https://i.imgur.com/gWXSVSh.png" alt="7" style="width:90px;height:126px;" title="7">
+      <img id="2c8" src="https://i.imgur.com/VIdlvhA.png" alt="8" style="width:90px;height:126px;" title="8">
+      <img id="2c9" src="https://i.imgur.com/wzXgI2a.png" alt="9" style="width:90px;height:126px;" title="9">
+      <img id="2c10" src="https://i.imgur.com/2xMQear.png" alt="10" style="width:90px;height:126px;" title="10">
+      <img id="2cj" src="https://i.imgur.com/TwWiJuX.png" alt="J" style="width:90px;height:126px;" title="10">
+      <img id="2cq" src="https://i.imgur.com/h8jeqym.png" alt="Q" style="width:90px;height:126px;" title="10">
+      <img id="2ck" src="https://i.imgur.com/jx5ic6B.png" alt="K" style="width:90px;height:126px;" title="10">
+      <img id="2ca" src="https://i.imgur.com/ZJsWdI5.png" alt="A" style="width:90px;height:126px;" title="11">
+</div><br />
+
+<h1><h2><h3>Player Total</h3></h2></h1>
+    <output id="total"></output>
+<h1><h2><h3>Strategy Used</h3></h2></h1>
+    <output id="strategy"></output>
+
+<h1><h2>Best Action</h2></h1>
+    <output id="act"></output><br />
+<!--pAction DEBUG
+    <output id="pActiondebug"></output><br /-->
+
+<h1><h2><h3>Dealer Card</h3></h2></h1>
+<div id="dcard" onmousedown="cardval3()">
+      <img id="3c2" src="https://i.imgur.com/WZjbR03.png" alt="2" style="width:90px;height:126px;" title="2">
+      <img id="3c3" src="https://i.imgur.com/iTkC6zB.png" alt="3" style="width:90px;height:126px;" title="3">
+      <img id="3c4" src="https://i.imgur.com/72gkB2q.png" alt="4" style="width:90px;height:126px;" title="4">
+      <img id="3c5" src="https://i.imgur.com/desAIzL.png" alt="5" style="width:90px;height:126px;" title="5">
+      <img id="3c6" src="https://i.imgur.com/4bHeb3L.png" alt="6" style="width:90px;height:126px;" title="6">
+      <img id="3c7" src="https://i.imgur.com/gWXSVSh.png" alt="7" style="width:90px;height:126px;" title="7">
+      <img id="3c8" src="https://i.imgur.com/VIdlvhA.png" alt="8" style="width:90px;height:126px;" title="8">
+      <img id="3c9" src="https://i.imgur.com/wzXgI2a.png" alt="9" style="width:90px;height:126px;" title="9">
+      <img id="3c10" src="https://i.imgur.com/2xMQear.png" alt="10" style="width:90px;height:126px;" title="10">
+      <img id="3cj" src="https://i.imgur.com/TwWiJuX.png" alt="J" style="width:90px;height:126px;" title="10">
+      <img id="3cq" src="https://i.imgur.com/h8jeqym.png" alt="Q" style="width:90px;height:126px;" title="10">
+      <img id="3ck" src="https://i.imgur.com/jx5ic6B.png" alt="K" style="width:90px;height:126px;" title="10">
+      <img id="3ca" src="https://i.imgur.com/ZJsWdI5.png" alt="A" style="width:90px;height:126px;" title="11">
+</div><br />
+</div>
